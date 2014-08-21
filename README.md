@@ -1,7 +1,7 @@
 RangeSeekBarExamples
 ====================
 
-Collection of examples using the RangeSeekBar Android view
+Collection of examples using the [RangeSeekBar](https://github.com/Larpon/RangeSeekBar) Android view
 
 ---
 ## Examples
@@ -44,6 +44,6 @@ public class Main extends Activity {
 ```
 
 to instantiate a RangeSeekBar from code without the use of XML do:
-`RangeSeekBar rangeSeekBar = new RangeSeekBar(Context);`
+```RangeSeekBar rangeSeekBar = new RangeSeekBar(Context);```
 or
-`RangeSeekBar rangeSeekBar = new RangeSeekBar(Context,AttributeSet);`
+```RangeSeekBar rangeSeekBar = new RangeSeekBar(Context,AttributeSet);```
