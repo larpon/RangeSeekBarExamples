@@ -8,7 +8,8 @@ Collection of examples using the [RangeSeekBar](https://github.com/Larpon/RangeS
 
 Sparse usage examples are included in the repository.
 
-To see how it is used with XML see the res/layout/main.xml
+To see how it is used with XML see the [res/layout/main.xml](https://github.com/Larpon/RangeSeekBarExamples/blob/master/res/layout/main.xml).
+
 A typical use from a Main activity would look like:
 
 ```
