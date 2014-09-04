@@ -4,6 +4,14 @@ RangeSeekBarExamples
 Collection of examples using the [RangeSeekBar](https://github.com/Larpon/RangeSeekBar) Android view
 
 ---
+## Screenshot
+
+The screenshot shows current state of the example application.
+
+![RangeSeekBar example application](screenshot.png "RangeSeekBar example application")
+
+
+
 ## Examples
 
 Sparse usage examples are included in the repository.
