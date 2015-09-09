@@ -33,7 +33,7 @@ public class ExampleActivity extends AppCompatActivity {
                            float value) {
             Log.i(TAG, "RangeSeekBar "+rangeSeekBar.getId()+" - onSeek "+index+" "+value);
 
-            // Round the thumb value
+            // Round the thumb_flashy value
             float f = 0.5f;
             float rounded = f * Math.round(value/f);
 
@@ -128,13 +128,13 @@ public class ExampleActivity extends AppCompatActivity {
 
         rangeSeekBar4.setScaleStep(5);
 
-        // Set custom thumb width and height
+        // Set custom thumb_flashy width and height
         rangeSeekBar4.setThumbWidth(40);
         rangeSeekBar4.setThumbHeight(30);
 
         rangeSeekBar4.initThumbs(3);
 
-        // Set thumb values
+        // Set thumb_flashy values
         rangeSeekBar4.setThumbValue(0, 10);
         rangeSeekBar4.setThumbValue(1, 90);
     }
