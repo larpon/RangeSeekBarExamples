@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".ExampleActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            />
+
+        <!-- Default setup -->
+        <larpon.android.view.RangeSeekBar
+            xmlns:larpon="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/rangeSeekBar1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- RangeSeekBar 2 is added to this programmatically -->
+        <LinearLayout
+            android:id="@+id/container"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+
+        <!-- Showing all available xml attributes -->
+        <larpon.android.view.RangeSeekBar
+            xmlns:larpon="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/rangeSeekBar3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/rangeseekbar"
+            android:padding="2dp"
+
+            larpon:rsb_limitThumbRange="true"
+            larpon:rsb_orientation="horizontal"
+            larpon:rsb_range="@drawable/rangegradient"
+            larpon:rsb_scaleMax="100"
+            larpon:rsb_scaleMin="0"
+            larpon:rsb_scaleStep="5.0"
+            larpon:rsb_thumb="@drawable/thumb"
+            larpon:rsb_thumbHeight="30dp"
+            larpon:rsb_thumbWidth="40dp"
+            larpon:rsb_thumbs="3"
+            larpon:rsb_track="@drawable/trackgradient" />
+
+        <larpon.android.view.RangeSeekBar
+            xmlns:larpon="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/rangeSeekBar4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="2dp" />
+
+        <larpon.android.view.RangeSeekBar
+            xmlns:larpon="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/rangeSeekBar5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="2dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
