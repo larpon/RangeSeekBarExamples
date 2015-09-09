@@ -10,7 +10,7 @@ The screenshot shows current state of the example application.
 
 ![RangeSeekBar example application](screenshot.png "RangeSeekBar example application")
 
-## Building in Android Studio 1.+
+## Building in Android Studio 1.x+
 To build the examples in Android Studio you need to clone [RangeSeekBar](https://github.com/Larpon/RangeSeekBar) into a 'libs' folder.
 ```
 cd /path/to/RangeSeekBarExamples
