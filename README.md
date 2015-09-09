@@ -24,7 +24,7 @@ From here on the examples should build and run as expected.
 
 Sparse usage examples are included in the repository.
 
-To see how it is used with XML see the [res/layout/main.xml](res/layout/main.xml).
+To see how it is used with XML see the [res/layout/activity_example.xml](app/src/main/res/layout/activity_example.xml).
 
 A typical use from a Main activity would look like:
 
