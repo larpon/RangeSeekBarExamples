@@ -118,10 +118,10 @@ public class ExampleActivity extends AppCompatActivity {
 
         rangeSeekBar4.setLimitThumbRange(true);
         rangeSeekBar4.setOrientation(RangeSeekBar.HORIZONTAL);
-        rangeSeekBar4.setRange(getResources().getDrawable(R.drawable.rangegradient));
+        rangeSeekBar4.setRangeDrawable(getResources().getDrawable(R.drawable.rangegradient));
         rangeSeekBar4.setBackgroundDrawable(getResources().getDrawable(R.drawable.rangeseekbar));
-        rangeSeekBar4.setThumb(getResources().getDrawable(R.drawable.thumb));
-        rangeSeekBar4.setTrack(getResources().getDrawable(R.drawable.trackgradient));
+        rangeSeekBar4.setThumbDrawable(getResources().getDrawable(R.drawable.thumb));
+        rangeSeekBar4.setTrackDrawable(getResources().getDrawable(R.drawable.trackgradient));
 
         rangeSeekBar4.setScaleRangeMin(0);
         rangeSeekBar4.setScaleRangeMax(100);

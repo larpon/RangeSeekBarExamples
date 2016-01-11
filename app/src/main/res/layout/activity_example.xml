@@ -43,7 +43,7 @@
                 android:layout_height="156dp"
                 android:layout_margin="4dp"
                 android:padding="2dp"
-                larpon:rsb_orientation="vertical" />
+                larpon:orientation="vertical" />
 
             <larpon.android.view.RangeSeekBar
                 xmlns:larpon="http://schemas.android.com/apk/res-auto"
@@ -52,8 +52,8 @@
                 android:layout_height="156dp"
                 android:layout_margin="4dp"
                 android:padding="2dp"
-                larpon:rsb_orientation="vertical"
-                larpon:rsb_thumbs="3" />
+                larpon:orientation="vertical"
+                larpon:thumbs="3" />
 
 
             <LinearLayout
@@ -81,17 +81,17 @@
                     android:background="@drawable/rangeseekbar"
                     android:padding="2dp"
 
-                    larpon:rsb_limitThumbRange="true"
-                    larpon:rsb_orientation="horizontal"
-                    larpon:rsb_range="@drawable/rangegradient"
-                    larpon:rsb_scaleMax="100"
-                    larpon:rsb_scaleMin="0"
-                    larpon:rsb_scaleStep="5.0"
-                    larpon:rsb_thumb="@drawable/thumb"
-                    larpon:rsb_thumbHeight="30dp"
-                    larpon:rsb_thumbWidth="40dp"
-                    larpon:rsb_thumbs="3"
-                    larpon:rsb_track="@drawable/trackgradient" />
+                    larpon:limitThumbRange="true"
+                    larpon:orientation="horizontal"
+                    larpon:rangeDrawable="@drawable/rangegradient"
+                    larpon:scaleMax="100"
+                    larpon:scaleMin="0"
+                    larpon:scaleStep="5.0"
+                    larpon:thumbDrawable="@drawable/thumb"
+                    larpon:thumbHeight="30dp"
+                    larpon:thumbWidth="40dp"
+                    larpon:thumbs="3"
+                    larpon:trackDrawable="@drawable/trackgradient" />
 
                 <larpon.android.view.RangeSeekBar
                     xmlns:larpon="http://schemas.android.com/apk/res-auto"
@@ -135,17 +135,17 @@
             android:padding="2dp"
             android:background="@drawable/rangeseekbar_flashy"
 
-            larpon:rsb_limitThumbRange="true"
-            larpon:rsb_orientation="horizontal"
-            larpon:rsb_range="@drawable/rangegradient_flashy"
-            larpon:rsb_scaleMax="100"
-            larpon:rsb_scaleMin="0"
-            larpon:rsb_scaleStep="5.0"
-            larpon:rsb_thumb="@drawable/seek_thumb_classic"
-            larpon:rsb_thumbHeight="30dp"
-            larpon:rsb_thumbWidth="40dp"
-            larpon:rsb_thumbs="3"
-            larpon:rsb_track="@drawable/trackgradient_flashy" />
+            larpon:limitThumbRange="true"
+            larpon:orientation="horizontal"
+            larpon:rangeDrawable="@drawable/rangegradient_flashy"
+            larpon:scaleMax="100"
+            larpon:scaleMin="0"
+            larpon:scaleStep="5.0"
+            larpon:thumbDrawable="@drawable/seek_thumb_classic"
+            larpon:thumbHeight="30dp"
+            larpon:thumbWidth="40dp"
+            larpon:thumbs="3"
+            larpon:trackDrawable="@drawable/trackgradient_flashy" />
 
     </LinearLayout>
 
